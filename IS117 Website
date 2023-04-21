@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--DEVELOPER: Jeremy Cubillas, IS117-006, Spring 2023-->
+<head>
+    <meta charset="UTF-8">
+    <title>Jeremy Cubillas Online Resume</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="css/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Virtual Resume</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#learn">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work Experience</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#work" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Achievements
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#skill">Skill Sets</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="row">
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        <p class="col-1"></p>
+        </div>
+    <div class="col-sm-4  text-center">
+        <h2>Home</h2>
+
+    </div>
+</div>
+    <!--Homepage-->
+    <section id="home" class="bg-dark text-light p-5 text-center">
+        <div class="container-fluid">
+            <div class="d-small-flex align-items-center justify-content-between">
+                <h1> ~Aspiring Leader in Computing~ </h1>
+                <p class="lead my-4">I am a current student the New Jersey Institue of Technology with a goal to pursue a degree in Information Systems</p>
+        </div>
+            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr0iBVjZi6-tH_r3tbIzbVkAaltbula1nGAaPbrES0KQ&s"
+                 alt="Jeremy's Profile"
+            style="width: 200px;">
+
+        </div>
+        </div>
+    </section>
+<!--Break Bar-->
+
+<!--Boxes-->
+<section class="p-5">
+    <div class="container-fluid">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <i class="bi bi-laptop"></i>
+                 </div>
+                    <h3 class="card-title mb-3">
+                        Online
+                    </h3>
+                    <p class="card-text">
+                        This resume is taking an online approach to display my creativity
+                        and demonstrate my abilities.
+                    </p>
+                    <a href="#" class="btn btn-primary"> Read More</a>
+                </div>
+            </div>
+        <div class="col-md">
+            <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+                <i class="bi bi-person-square"></i>
+            </div>
+            <h3 class="card-title mb-3">
+                Efficient
+            </h3>
+            <p class="card-text">
+                Lorem ipsum dolor sit emar coneccutr adipsticing elit.
+                Iure, quas quidem possiums dolurm esse eligendi?
+            </p>
+                <a href="#" class="btn btn-primary"> Read More</a>
+        </div>
+        </div>
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                    <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">
+                    Innovative
+                </h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit emar coneccutr adipsticing elit.
+                    Iure, quas quidem possiums dolurm esse eligendi?
+                </p>
+                <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</section>
+
+<!-- Learn Sections-->
+<section id="learn" class="p-5">
+    <div class="container">
+       <div class="row align-items-center justify-content-between">
+           <div class="col-md">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6GGHKfRFuYULM-blOKarlzrI_gspfYPnhVQz8kGTuqg&usqp=CAU&ec=48600113" class="img-fluid" alt="A person involved in Computing and Music">
+           </div>
+           <div class="col-md p-5">
+               <h2>About Me</h2>
+               <ul>
+                   <li>19 years old</li>
+                   <li> Peruvian Decent</li>
+                   <li>Reside in Parsippany, NJ</li>
+                   <li>Free-lance Percussionist</li>
+                   <li>He/Him</li>
+               </ul>
+
+               <p class="lead">
+                   School Credentials
+               </p>
+               <p>3.5 GPA, First Year Student, Information Systems Major, Active member of the NJIT Jazz Ensemble</p>
+           </div>
+       </div>
+    </div>
+</section>
+<!-- Work Experience -->
+<section id="work" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h2>Work Experience</h2>
+                <p class="lead">
+                    Internships & Job Positions
+                </p>
+                <p>Back in 2020 I was involved in the Development School For Youth (DSY) at Newark, NJ
+                The mission of this program was to bridge inner city kids with busniness leaders from
+                from the Tri-State area. I got my first internship here in Networking Workshops.</p>
+                <p> My most recent Job position was Patient Access at the Jersey City Medical Center. There I worked
+                with medical information systems and registered incoming patients into the hospital.</p>
+            </div>
+            <div class="col-md">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAQNjG_0rCeQHEYDLrZZr56AUIMoKs_aoxL-ZXk_BtJg&usqp=CAU&ec=48600113" class="img-fluid" alt="Person climbing up stairs representing opportunity">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skill Sets-->
+<section id="skill" class="p-5 bg-light text-grey">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h2>Skill Sets</h2>
+                <p class="lead">
+                    Programs & Skills
+                </p>
+                <ul>
+                    <li>Microsoft Word</li>
+                    <li>Microsoft Power Point</li>
+                    <li>Microsoft Excel</li>
+                    <li>Phython</li>
+                    <li>HTML</li>
+                </ul>
+                <p>Being involved in clubs, events, and interning has provided me with skills to use everyday and within the work
+                force. I have developed communication skills, leadership skills, and project based collaborative skills </p>
+
+            </div>
+            <div class="col-md">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyWnE3PQptxQrnj1U__oauszaa3AEA_P82cTeU-MCAZsAHoB_daWORcIU4N5GISNLDyUJo0tOYg8I&usqp=CAU&ec=48600113" class="img-fluid" alt="Group of individuals networking">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact Page-->
+<section id="contact" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h2>Contact</h2>
+    <div class="container">
+        <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input"
+                               type="checkbox" name="subscribe"> Subscribe
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </row>
+        </div>
+</section>
+
+
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Jeremy Cubillas, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
